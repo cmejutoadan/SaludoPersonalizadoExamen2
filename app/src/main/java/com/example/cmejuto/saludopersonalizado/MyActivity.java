@@ -18,7 +18,7 @@ import android.widget.Toast;
 
 import static com.example.cmejuto.saludopersonalizado.R.id.rdbHola;
 
-//ejercicio 1
+//ejercicio 1 sjañldjf
 public class MyActivity extends Activity {
 
     @Override
