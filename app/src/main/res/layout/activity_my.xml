@@ -1,0 +1,120 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/entry"
+            android:background="@android:drawable/editbox_background"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        android:id="@+id/hello"
+        android:gravity="center"
+        android:layout_gravity="center" />
+    <!-- gravity es el gravity texto del botón-->
+    <!-- layout_gravity es del propio botón-->
+
+    <!--creamos el checkbox que pregunta si muestra hora-->
+    <CheckBox
+       android:id="@+id/idcheckbox"
+       android:text="@string/showtime"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/idcbxdate"
+        android:text="@string/showdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<!--creamos el reloj-->
+    <TimePicker
+        android:id="@+id/idtimepicker"
+        android:text="@string/timepiker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        </TimePicker>
+    <!--creamos el calendario-->
+    <DatePicker
+        android:id="@+id/iddatepicker"
+        android:text="datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        </DatePicker>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tratamiento"
+        android:id="@+id/textTratamiento" />
+    <RadioGroup
+
+       android:id="@+id/RadioGroup01"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saludoSra"
+        android:id="@+id/rdbSra"
+        android:checked="true"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saludoSr"
+        android:id="@+id/rdbSr" />
+
+   </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tipoSaludo"
+        android:id="@+id/textTipoSaludo" />
+    <RadioGroup
+
+        android:id="@+id/RadioGroup02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saludoHola"
+            android:id="@+id/rdbHola"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saludoAdios"
+            android:id="@+id/rdbAdios" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/out" />
+
+</LinearLayout>

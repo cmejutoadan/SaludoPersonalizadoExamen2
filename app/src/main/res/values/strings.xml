@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SaludoPersonalizado</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hola</string>
+    <string name="name">¿Cuál es tu nombre?</string>
+    <string name="saludoSra">Sra</string>
+    <string name="saludoSr">Sr</string>
+    <string name="showtime">¿Mostrar Hora?</string>
+    <string name="timepiker">timepicker</string>
+    <string name="showdate">¿Mostrar calendario?</string>
+    <string name="nonombre">No has introducido un texto</string>
+    <string name="title_activity_salutation">Salutation</string>
+    <string name="saludoHola">Hola</string>
+    <string name="saludoAdios">Adios</string>
+    <string name="tratamiento">Seleccione el tipo de tratamiento</string>
+    <string name="tipoSaludo">Seleccione un tipo de saludo</string>
+
+</resources>
